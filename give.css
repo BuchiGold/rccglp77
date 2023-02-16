@@ -1,0 +1,75 @@
+/*************** GLOBAL STYLES ***************/
+/*************** GLOBAL STYLES ***************/
+/*************** GLOBAL STYLES ***************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1400px;
+}
+
+/*************** HEADER SECTION *******************/
+/*************** HEADER SECTION *******************/
+/*************** HEADER SECTION *******************/
+.give {
+    width: 100%;
+    margin-top: 100px;
+}
+
+#h-give {
+    padding-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/**************** for large screens ***************/
+@media (min-width: 1200px) {
+}
+ 
+/**************** For medium screens ***************/
+@media (min-width: 766px) and (max-width: 1199px) {
+    #img-give {
+        width: 80%;
+        padding-top: 150px;
+    }
+}
+ 
+/**************** For small screens ***************/
+@media (min-width: 577px) and (max-width: 765px) {
+    #offering-div {
+        padding-left: 20px;
+    }
+
+    #img-give {
+        width: 80%;
+        padding-top: 50px;
+    }
+}
+ 
+/**************** For extra small screens ***************/
+@media (max-width: 576px) {
+    #offering-div {
+        padding-left: 20px;
+    }
+
+    #img-give {
+        width: 80%;
+        padding-top: 50px;
+    }
+}
+
+/**************** For micro screens ***************/
+@media (max-width: 300px) {
+}
+

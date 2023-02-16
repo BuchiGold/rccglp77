@@ -1,0 +1,86 @@
+/*************** GLOBAL STYLES ***************/
+/*************** GLOBAL STYLES ***************/
+/*************** GLOBAL STYLES ***************/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1400px;
+}
+
+/*************** HEADER SECTION *******************/
+/*************** HEADER SECTION *******************/
+/*************** HEADER SECTION *******************/
+#contactus-h1 {
+    margin-left: 50px;
+    margin-top: 150px;
+}
+
+#location-icon {
+    padding-left: 200px;
+}
+
+#phone-icon {
+    padding-left: 20px;
+}
+
+#email-icon {
+    padding-left: 90px;
+}
+
+
+
+
+
+
+/***************** MEDIA QUERIES *******************/
+/***************** MEDIA QUERIES *******************/
+/***************** MEDIA QUERIES *******************/
+
+/******************* for large screens ******************/
+@media (min-width: 1200px) {
+}
+ 
+/******************* For medium screens ******************/
+@media (min-width: 766px) and (max-width: 1199px) {
+    #location-icon {
+        padding-left: 137px;
+    }
+}
+ 
+/******************* For small screens ******************/
+@media (min-width: 577px) and (max-width: 765px) {
+    #location-icon {
+        padding-left: 130px;
+    }
+}
+ 
+/******************* For extra small screens ******************/
+@media (max-width: 576px) {
+    #location-icon {
+        padding-left: 80px;
+    }
+}
+
+/******************* For micro screens ******************/
+@media (max-width: 300px) {
+    .micro-hd {
+        font-size: 16px;
+    }
+
+    #location-icon {
+        padding-left: 35px;
+    }
+
+    #email-icon {
+        padding-left: 50px;
+    }
+
+    .social-icon {
+        font-size: 30px !important;
+    }
+}
+

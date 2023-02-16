@@ -1,0 +1,105 @@
+/*** GLOBAL STYLE ****/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1400px;
+}
+
+/*************** HEADER SECTION *******************/
+/*************** HEADER SECTION *******************/
+/*************** HEADER SECTION *******************/
+.aboutus-bgimg {
+    width: 100%;
+    height: 700px;
+    background-image: url(rectangle3.jpg);
+    background-size: cover;
+}
+
+.blessed {
+    padding-top: 250px;
+}
+
+/****************** SERVICES SECTION *********************/
+/****************** SERVICES SECTION *********************/
+/****************** SERVICES SECTION *********************/
+.services-section {
+    padding-top: 350px;
+}
+
+
+
+
+
+/***************** MEDIA QUERIES *******************/
+/***************** MEDIA QUERIES *******************/
+/***************** MEDIA QUERIES *******************/
+
+/************* FOR MEDIUM SCREENS *****************/
+@media (min-width: 768px) and (max-width: 992px) {
+    .md-service {
+        padding-top: 50px;
+    }
+
+    .md-leadership {
+        padding-top: 50px;
+    }
+
+    .mobile-bgcolor {
+        background-color: #000;
+    }
+}
+
+
+
+
+
+
+/***************** FOR SMALL SCREENS *******************/
+@media (min-width: 577px) and (max-width: 767px) {
+    .mobile-service {
+        padding-top: 50px;
+    }
+
+    .mobile-leadership {
+        padding-top: 50px;
+    }
+
+    .mobile-bgcolor {
+        background-color: #000;
+    }
+}
+
+
+
+
+
+
+
+/***************** FOR EXTRA SMALL SCREENS *******************/
+@media (max-width: 576px) {
+    .mobile-service {
+        padding-top: 50px;
+    }
+
+    .mobile-leadership {
+        padding-top: 50px;
+    }
+
+    .mobile-bgcolor {
+        background-color: #000;
+    }
+}
+
+
+
+
+
+
+
+/***************** FOR MICRO SCREENS *******************/
+@media (max-width: 360px) {
+}
